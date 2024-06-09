@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@media screen and (max-width:490px) {
+  .Search{
+    height: 90%;
+    width: 90%;
+  }
+  .Filter{
+    width: 90%;
+    height: 90%;
+  }
+  .Card{
+    width: 80%;
+    height: 40%;
+  }
+}
+
+
+@media screen and (max-width:390px) {
+  .Search{
+    height: 90%;
+    width: 90%;
+  }
+  .Filter{
+    width: 90%;
+    height: 90%;
+  }
+  .Card{
+    width: 90%;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .Search{
+    height: 90%;
+    width: 90%;
+  }
+  .Filter{
+    width: 90%;
+    height: 90%;
+  }
+  .Card{
+    width: 90%;
+  }
+}
