@@ -1,6 +1,6 @@
 import React from 'react';
 import UserCard from './UserCard';
-import { User } from './User';
+import { User } from '../Interfaces/User';
 
 interface UserListProps {
   users: User[];

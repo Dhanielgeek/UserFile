@@ -4,7 +4,7 @@ import UserList from './Components/UserList';
 import Search from './Components/Search';
 import Filter from './Components/Filter';
 import UserModal from './Components/UserModal';
-import { User } from './Components/User';
+import { User } from './Interfaces/User';
 
 const App = () => {
   const [users, setUsers] = useState<User[]>([]);

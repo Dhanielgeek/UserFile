@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { User } from './User';
+import { User } from '../Interfaces/User';
 
 interface SearchProps {
   users: User[];
@@ -13,8 +13,8 @@ const Search: React.FC<SearchProps> = ({ users, setFilteredUsers }) => {
     const term = event.target.value.toLowerCase();
     setSearchTerm(term);
     setFilteredUsers(users.filter(user =>
-      user.login.username.toLowerCase().includes(term) ||
-      user.email.toLowerCase().includes(term)
+      user.login.username.toLowerCase().includes(term.trim()) ||
+      user.email.toLowerCase().includes(term.trim())
     ));
   };
 
