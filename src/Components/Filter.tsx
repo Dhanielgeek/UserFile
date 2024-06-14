@@ -1,5 +1,5 @@
 import React from 'react';
-import { User } from '../Interfaces/User';
+import { User } from './User';
 
 interface FilterProps {
   users: User[];
